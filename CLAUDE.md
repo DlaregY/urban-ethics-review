@@ -50,7 +50,8 @@ sage → brass → burgundy → rust → forest (NOTED → CONCERNING → ALARMI
 
 ## Key Patterns
 
-- **Page data**: Violations, demands, and essays are defined as typed arrays within their page files and mapped over in JSX
+- **Page data**: Violations, demands, and essays are defined as typed arrays within their page files and mapped over in JSX. Violations and demands use `React.ReactNode[]` for paragraphs (supports inline `<a>` product links alongside plain strings)
+- **Product links**: Product names throughout the site link to `citycorefashion.com` product pages using `text-brass hover:text-burgundy underline decoration-brass/30 hover:decoration-burgundy/50 transition-colors` styling, opening in new tabs
 - **Metadata**: Each page exports Next.js `Metadata` with format `"{Page} | The Urban Ethics Review"`
 - **Page headers**: Most inner pages use the `PageHeader` component (title, optional subtitle, optional quote)
 - **Article text**: Uses `.prose-urban` CSS class for consistent paragraph spacing/sizing

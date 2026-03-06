@@ -64,7 +64,7 @@ export default function Home() {
             citycorefashion.com →
           </a>
           <p className="mt-3 text-ink/70 font-body text-sm italic">
-            Examine the harm for yourself. Clothing, parfum, jewelry, hats — every product line a site of extraction.
+            From the <a href="https://citycorefashion.com/products/concrete-beach-parfum-100ml" target="_blank" rel="noopener noreferrer" className="text-brass hover:text-burgundy underline decoration-brass/30 hover:decoration-burgundy/50 transition-colors">CONCRETE BEACH Parfum</a> to the <a href="https://citycorefashion.com/products/glitch-slouch-beanie" target="_blank" rel="noopener noreferrer" className="text-brass hover:text-burgundy underline decoration-brass/30 hover:decoration-burgundy/50 transition-colors">Glitch Slouch Beanie</a>, from the <a href="https://citycorefashion.com/products/bubble-necklace" target="_blank" rel="noopener noreferrer" className="text-brass hover:text-burgundy underline decoration-brass/30 hover:decoration-burgundy/50 transition-colors">Bubble Necklace</a> to the <a href="https://citycorefashion.com/products/wet-floor-standard-t-shirt" target="_blank" rel="noopener noreferrer" className="text-brass hover:text-burgundy underline decoration-brass/30 hover:decoration-burgundy/50 transition-colors">Wet Floor Standard T-Shirt</a> — every product a site of extraction.
           </p>
         </div>
       </section>
