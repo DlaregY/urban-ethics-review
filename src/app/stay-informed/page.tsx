@@ -13,11 +13,11 @@ export default function StayInformedPage() {
     <div className="mx-auto max-w-2xl px-4 pb-16">
       <PageHeader
         title="Stay Informed"
-        subtitle="Because ignorance of aesthetic transgression is no excuse."
+        subtitle="Silence is complicity. Ignorance is a choice. Subscribe."
       />
 
       <div className="space-y-12 text-center">
-        <div className="space-y-6">
+        <div className="space-y-4">
           <p className="font-heading text-2xl md:text-3xl text-forest leading-relaxed">
             Do you know what&apos;s in your cologne?
           </p>
@@ -25,7 +25,7 @@ export default function StayInformedPage() {
             Do you know whose neighborhood it&apos;s named after?
           </p>
           <p className="font-heading text-2xl md:text-3xl text-forest leading-relaxed">
-            Do you know what an ostrich egg shell candle says about late capitalism?
+            Do you know what your consumption says about the world you are building?
           </p>
         </div>
 
@@ -33,7 +33,7 @@ export default function StayInformedPage() {
 
         <div>
           <p className="font-body text-ink/80 leading-relaxed mb-8 max-w-md mx-auto">
-            Join our community of concerned aesthetes, critical theorists, and people who have simply had enough. Receive dispatches directly to your inbox whenever the Editorial Board identifies a new transgression requiring collective alarm.
+            Join the movement. Organizers, community members, and everyone who refuses to normalize extraction. Receive dispatches whenever the Editorial Board documents new harm requiring collective action.
           </p>
           <NewsletterForm />
         </div>
@@ -51,7 +51,7 @@ export default function StayInformedPage() {
             </li>
             <li className="flex gap-2">
               <span className="text-brass">✦</span>
-              Quarterly dispatches on the state of olfactory justice
+              Quarterly dispatches from the front lines of aesthetic justice
             </li>
             <li className="flex gap-2">
               <span className="text-brass">✦</span>
@@ -59,7 +59,7 @@ export default function StayInformedPage() {
             </li>
             <li className="flex gap-2">
               <span className="text-brass">✦</span>
-              The quiet satisfaction of aesthetic vigilance
+              Priority access to newly published accountability essays and action alerts
             </li>
           </ul>
         </div>

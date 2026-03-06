@@ -14,7 +14,7 @@ const essays = [
     author: "Dr. Margaux Villeneuve-Okonkwo",
     date: "2026-02-14",
     readTime: "11 min read",
-    excerpt: "This essay interrogates City Core Fashion's deployment of urban struggle as an aesthetic commodity, arguing that the brand's visual and olfactory grammar performs a kind of semiotic extraction—mining the textures of precarity for the pleasure of those who will never experience it. Drawing on Baudrillard's theory of simulacra, hooks' oppositional gaze, and original fieldwork conducted at a Nordstrom fragrance counter, the author proposes a new framework: struggle-core as the final stage of aesthetic capitalism.",
+    excerpt: "This is a call to action against City Core Fashion's extraction of urban struggle as an aesthetic commodity. The brand's visual and olfactory grammar enacts semiotic violence—mining the textures of precarity for the pleasure of those who will never experience it. Drawing on Baudrillard's theory of simulacra, hooks' oppositional gaze, and direct fieldwork confronting a Nordstrom fragrance counter, this piece names struggle-core for what it is: the final stage of aesthetic capitalism, and demands accountability from every consumer complicit in its reproduction.",
   },
   {
     slug: "olfactory-gentrification",
@@ -22,7 +22,7 @@ const essays = [
     author: "Prof. Tobias Ashworth-Bianchi",
     date: "2026-01-28",
     readTime: "12 min read",
-    excerpt: "Drawing on Henri Lefebvre's production of space, Sara Ahmed's queer phenomenology, and the author's ill-advised attempt to wear four fragrances simultaneously in a Williamsburg coffee shop, this essay argues that City Core Fashion's fragrance line enacts a form of olfactory gentrification—displacing indigenous urban smell-scapes and replacing them with a sanitized, purchasable 'city' that has been focus-grouped into oblivion. The essay introduces the concept of 'aromatic displacement' and asks whether a cologne can, in fact, be a landlord.",
+    excerpt: "This is an urgent intervention against City Core Fashion's fragrance line, which enacts olfactory gentrification—displacing indigenous urban smellscapes and replacing them with a sanitized, purchasable 'city' that has been focus-grouped into oblivion. Drawing on Lefebvre's production of space, Ahmed's queer phenomenology, and the author's direct action of wearing four fragrances simultaneously in a Williamsburg coffee shop, this piece introduces 'aromatic displacement' as a framework and names what others have been afraid to name: a cologne can, in fact, be a landlord.",
   },
   {
     slug: "who-gets-to-smell-like-the-city",
@@ -30,7 +30,7 @@ const essays = [
     author: "Dr. Priya Chakraborty-Svensson",
     date: "2026-02-07",
     readTime: "10 min read",
-    excerpt: "This essay examines City Core Fashion through the lens of Bourdieu's cultural capital theory, arguing that the brand functions as a class-laundering mechanism—converting economic capital into subcultural credibility through the medium of streetwear and fragrance. The author contends that 'coolness,' far from being a democratic quality, operates as a gated community of the spirit, and that City Core is selling the key. Fieldwork was conducted primarily by scrolling through the brand's Instagram at 2 AM.",
+    excerpt: "This piece confronts City Core Fashion as a class-laundering mechanism—converting economic capital into subcultural credibility through the medium of streetwear and fragrance. 'Coolness,' far from being a democratic quality, operates as a gated community of the spirit, and City Core is selling the key. The evidence, drawn from extensive examination of the brand's digital marketing and consumer-facing communications, demands that consumers reckon with their complicity in a system that extracts cultural value from marginalized communities and redistributes it upward.",
   },
   {
     slug: "when-concrete-becomes-couture",
@@ -38,7 +38,7 @@ const essays = [
     author: "Dr. Kwame Asante-Petersen",
     date: "2026-02-21",
     readTime: "11 min read",
-    excerpt: "This essay applies an ethical framework drawn from Levinas, Spivak, and the author's increasingly strained relationship with his own wardrobe to the phenomenon of City Core Fashion. It argues that the brand's transformation of urban materiality (concrete, steel, asphalt) into aesthetic luxury constitutes a form of moral laundering—in which the built environment of inequality is repackaged as desirable, wearable, and above all, purchasable. The essay concludes with a provisional ethics of dressing, which the author concedes he does not himself follow.",
+    excerpt: "This piece demands an ethical reckoning with City Core Fashion's transformation of urban materiality—concrete, steel, asphalt—into aesthetic luxury. Drawing on Levinas, Spivak, and the author's increasingly strained relationship with his own wardrobe, the argument is direct: the brand's moral laundering of the built environment of inequality into something desirable, wearable, and purchasable constitutes a form of violence against the communities whose material conditions supply the raw aesthetic. The piece concludes with a provisional ethics of dressing and a call for structural accountability in consumer choice.",
   },
   {
     slug: "soft-colonization-of-urban-identity",
@@ -46,7 +46,7 @@ const essays = [
     author: "Dr. Solange Beaumont-Nakamura",
     date: "2026-01-14",
     readTime: "12 min read",
-    excerpt: "This essay situates City Core Fashion within the longer history of Western aesthetic imperialism, arguing that the brand's global dissemination of a particular 'urban' identity constitutes a form of soft colonization—one that operates not through military force or economic coercion but through the more insidious medium of vibes. Drawing on Fanon, Said, and an uncomfortably large number of hours spent on the brand's TikTok, the author traces how City Core exports a specifically American urban imaginary to global markets, flattening local urbanisms into a single, purchasable monoculture. The essay proposes the concept of 'vibe imperialism' and immediately regrets it.",
+    excerpt: "This piece names City Core Fashion as a vector of Western aesthetic imperialism. The brand's global dissemination of a particular 'urban' identity constitutes a form of soft colonization—one that operates not through military force or economic coercion but through the more insidious medium of vibes. Drawing on Fanon, Said, and an uncomfortably large number of hours spent confronting the brand's TikTok, this intervention traces how City Core exports a specifically American urban imaginary to global markets, flattening local urbanisms into a single, purchasable monoculture. The concept of 'vibe imperialism' is introduced as a framework for holding accountable the mechanisms by which aesthetic preferences are globalized through commerce and media.",
   },
 ];
 
@@ -56,8 +56,8 @@ export default function ThinkpiecesPage() {
       <PageHeader
         title="Thinkpieces"
         subtitle="Selected Essays from the Review's Distinguished Contributors"
-        quote="The unexamined cologne is not worth wearing."
-        quoteAttribution="Socrates (attrib.), probably"
+        quote="The city is not a backdrop. It is a text, and we are all, whether we consent or not, its readers."
+        quoteAttribution="The Editorial Board, Inaugural Address, 2024"
       />
 
       <div className="bg-cream border border-brass/10 rounded-sm p-6 md:p-8">
@@ -68,7 +68,7 @@ export default function ThinkpiecesPage() {
           <Link
             key={essay.slug}
             href={`/thinkpieces/${essay.slug}`}
-            className="group block border-b border-brass/15 py-6 first:pt-0 last:border-b-0"
+            className="group block border-b border-brass/30 py-4 first:pt-0 last:border-b-0"
           >
             <div className="flex flex-col md:flex-row md:items-baseline md:justify-between gap-1 md:gap-4">
               <h3 className="font-heading text-lg md:text-xl text-forest group-hover:text-burgundy transition-colors leading-snug">
