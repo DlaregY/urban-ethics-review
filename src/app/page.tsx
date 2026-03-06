@@ -73,27 +73,27 @@ export default function Home() {
         <div className="mx-auto max-w-5xl">
           <div className="grid md:grid-cols-2 gap-6">
             <Link href="/manifesto" className="group block bg-cream border border-brass/10 p-6 rounded-sm hover:border-brass/40 hover:shadow-lg transition-all">
-              <h3 className="font-heading text-xl text-forest group-hover:text-burgundy transition-colors">The Manifesto</h3>
+              <h3 className="font-heading text-xl font-bold text-forest group-hover:text-burgundy transition-colors">The Manifesto</h3>
               <p className="mt-3 font-body text-ink/70 leading-relaxed">Our call to action against the extraction, erasure, and commodification of urban life by City Core.</p>
               <span className="inline-block mt-4 text-brass text-sm font-mono tracking-wide">Read More →</span>
             </Link>
             <Link href="/violations" className="group block bg-cream border border-brass/10 p-6 rounded-sm hover:border-brass/40 hover:shadow-lg transition-all">
-              <h3 className="font-heading text-xl text-forest group-hover:text-burgundy transition-colors">The Register of Violations</h3>
+              <h3 className="font-heading text-xl font-bold text-forest group-hover:text-burgundy transition-colors">The Register of Violations</h3>
               <p className="mt-3 font-body text-ink/70 leading-relaxed">A living document of harm: every act of cultural appropriation, labor erasure, and identity theft catalogued and named.</p>
               <span className="inline-block mt-4 text-brass text-sm font-mono tracking-wide">Read More →</span>
             </Link>
             <Link href="/demands" className="group block bg-cream border border-brass/10 p-6 rounded-sm hover:border-brass/40 hover:shadow-lg transition-all">
-              <h3 className="font-heading text-xl text-forest group-hover:text-burgundy transition-colors">Priority Demands</h3>
+              <h3 className="font-heading text-xl font-bold text-forest group-hover:text-burgundy transition-colors">Priority Demands</h3>
               <p className="mt-3 font-body text-ink/70 leading-relaxed">Non-negotiable demands for immediate compliance. City Core must do the work or face permanent accountability.</p>
               <span className="inline-block mt-4 text-brass text-sm font-mono tracking-wide">Read More →</span>
             </Link>
             <Link href="/thinkpieces" className="group block bg-cream border border-brass/10 p-6 rounded-sm hover:border-brass/40 hover:shadow-lg transition-all">
-              <h3 className="font-heading text-xl text-forest group-hover:text-burgundy transition-colors">Thinkpieces</h3>
+              <h3 className="font-heading text-xl font-bold text-forest group-hover:text-burgundy transition-colors">Thinkpieces</h3>
               <p className="mt-3 font-body text-ink/70 leading-relaxed">Urgent essays from organizers and practitioners on the front lines of aesthetic justice and decolonial practice.</p>
               <span className="inline-block mt-4 text-brass text-sm font-mono tracking-wide">Read More →</span>
             </Link>
-            <Link href="/stay-informed" className="group block bg-cream border border-brass/10 p-6 rounded-sm hover:border-brass/40 hover:shadow-lg transition-all">
-              <h3 className="font-heading text-xl text-forest group-hover:text-burgundy transition-colors">Stay Informed</h3>
+            <Link href="/stay-informed" className="group block bg-cream border border-brass/10 p-6 rounded-sm hover:border-brass/40 hover:shadow-lg transition-all md:col-span-2 md:max-w-md md:mx-auto">
+              <h3 className="font-heading text-xl font-bold text-forest group-hover:text-burgundy transition-colors">Stay Informed</h3>
               <p className="mt-3 font-body text-ink/70 leading-relaxed">Join the movement. Subscribe for dispatches on the ongoing crisis of cultural extraction.</p>
               <span className="inline-block mt-4 text-brass text-sm font-mono tracking-wide">Read More →</span>
             </Link>
