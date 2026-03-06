@@ -18,7 +18,7 @@ export default function Footer() {
               <p className="font-heading text-lg text-parchment">The Urban Ethics Review</p>
             </div>
             <p className="text-sm leading-relaxed">
-              An independent organ of aesthetic accountability and decolonial practice. Published by the Editorial Board.
+              An independent voice for aesthetic accountability and decolonial praxis. Published by the Editorial Board.
             </p>
           </div>
           <nav className="flex flex-col items-center md:items-end gap-2 text-sm">
@@ -33,7 +33,7 @@ export default function Footer() {
           </nav>
         </div>
         <div className="mt-8 pt-6 border-t border-parchment/20 text-center text-xs text-parchment/50">
-          <p>© {new Date().getFullYear()} The Urban Ethics Review. All rigorous critique reserved.</p>
+          <p>© {new Date().getFullYear()} The Urban Ethics Review. Solidarity with all who do the work.</p>
           <p className="mt-1">The Urban Ethics Review is an independent publication and is not affiliated with City Core Fashion or any of its subsidiaries.</p>
         </div>
       </div>

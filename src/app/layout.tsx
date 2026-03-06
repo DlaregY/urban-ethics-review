@@ -21,7 +21,7 @@ const jetbrainsMono = JetBrains_Mono({
 
 export const metadata: Metadata = {
   title: "The Urban Ethics Review",
-  description: "A Journal of Aesthetic Accountability — Dedicated to the rigorous examination of City Core Fashion and its broader implications for urban identity, material culture, and the ethics of the contemporary lifestyle industry.",
+  description: "An independent publication holding City Core Fashion accountable for its extraction of urban identity, cultural labor, and community aesthetics. Speaking truth to power since March 2026.",
 };
 
 export default function RootLayout({

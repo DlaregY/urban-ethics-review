@@ -51,15 +51,15 @@ export default function StayInformedPage() {
             </li>
             <li className="flex gap-2">
               <span className="text-brass">✦</span>
-              Quarterly dispatches from the front lines of aesthetic justice
+              Quarterly dispatches from the front lines of accountability work
             </li>
             <li className="flex gap-2">
               <span className="text-brass">✦</span>
-              Invitations to our annual Symposium on Concrete &amp; Conscience
+              Invitations to our annual Assembly on Concrete &amp; Conscience
             </li>
             <li className="flex gap-2">
               <span className="text-brass">✦</span>
-              Priority access to newly published accountability essays and action alerts
+              Priority access to newly published accountability reports and action alerts
             </li>
           </ul>
         </div>
