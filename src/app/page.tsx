@@ -41,7 +41,7 @@ export default function Home() {
       <section className="py-8 px-4">
         <div className="mx-auto max-w-2xl bg-cream border border-brass/20 rounded-sm p-6 text-center">
           <p className="font-body text-sage text-sm uppercase tracking-widest mb-2">
-            The Entity Under Accountability Review
+            Guilty
           </p>
           <figure className="my-4">
             <Image
@@ -71,9 +71,6 @@ export default function Home() {
 
       <section className="py-8 px-4">
         <div className="mx-auto max-w-5xl">
-          <h2 className="font-heading text-3xl md:text-4xl text-forest text-center mb-12">
-            Sites of Accountability
-          </h2>
           <div className="grid md:grid-cols-2 gap-6">
             <Link href="/manifesto" className="group block bg-cream border border-brass/10 p-6 rounded-sm hover:border-brass/40 hover:shadow-lg transition-all">
               <h3 className="font-heading text-xl text-forest group-hover:text-burgundy transition-colors">The Manifesto</h3>
